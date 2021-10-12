@@ -1,3 +1,5 @@
 venv/
 .idea/
 .pytest_cache/
+tests/__pycache__/
+tests/functional/__pycache__/

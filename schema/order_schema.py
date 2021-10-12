@@ -1,7 +1,7 @@
 # import app from app.py
 from extension.extension import Extensions
 from schema.pets_schema import PetSchema
-ext = Extensions.getInstance(r"C:\Users\asamir\OneDrive - Ciena Corporation\Desktop\pet shop\pet-shop-project\config\flask.cfg")
+ext = Extensions.getInstance()
 ma = ext.get_ma()
 
 class OrderSchema(ma.Schema):

@@ -1,6 +1,6 @@
 from extension.extension import Extensions
 
-ext = Extensions.getInstance(r"C:\Users\asamir\OneDrive - Ciena Corporation\Desktop\pet shop\pet-shop-project\config\flask.cfg")
+ext = Extensions.getInstance()
 ma = ext.get_ma()
 
 
